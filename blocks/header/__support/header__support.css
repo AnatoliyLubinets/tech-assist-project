@@ -1,0 +1,6 @@
+.header__support {
+    width: 240px;
+    height: 100px;
+    background-image: url(../../../images/поддержка.png);
+    background-repeat: no-repeat;
+}
