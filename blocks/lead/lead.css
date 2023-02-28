@@ -1,0 +1,29 @@
+.lead {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', Arial, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: url(../../images/data_centers.png);
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1152px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .lead {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 761px) {
+  .lead {
+    max-width: 320px;
+  }
+}
+
