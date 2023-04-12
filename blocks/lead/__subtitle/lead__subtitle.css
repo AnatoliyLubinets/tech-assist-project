@@ -1,19 +1,20 @@
 .lead__subtitle {
-  margin: 40px auto auto 245px;
-  max-width: 450px;
+  margin: 32px 0 64px 0;
+  max-width: 640px;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 36px;
-  text-align: start;
-  color: #000;
+  text-align: left;
+  color: black;
+  margin-left: 440px;
 }
 
 @media screen and (max-width: 761px) {
   .lead__subtitle {
-    max-width: 288px;
+    max-width: 60%;
     font-size: 16px;
     line-height: 20px;
-    margin: 16px auto 40px;
+    margin: 16px auto auto 0;
   }
 }
 

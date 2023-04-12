@@ -1,10 +1,12 @@
 .header__button_help {
   height: 50px;
-  width: 230px;
+  width: 250px;
   font-size: 15px;
   background-image: url(../../../../images/help1.png);
   background-repeat: no-repeat;
   transition: 0.2s;
+  color: black;
+  border: 0;
 }
 
 .header__button_help:hover {

@@ -1,4 +1,12 @@
 .header__links {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 761px) {
+  .header__links {
+    flex-wrap: wrap;
+    display: none;
+  }
 }

@@ -1,3 +1,9 @@
 .header__button_phone {
   color: rgb(0, 91, 154);
 }
+
+@media screen and (max-width: 761px) {
+  .header__button_phone {
+   display: none;
+  }
+}

@@ -1,26 +1,30 @@
-.intro {
+.lead__bottom {
   padding: 0;
   display: flex;
   flex-direction: column;
   font-family: 'Myriad Pro', Arial, sans-serif;
-  max-width: 984px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin-top: 0 auto;
+  background-image: url(../../images/4444444.png);
+  background-position: left;
 }
 
 @media screen and (max-width: 1152px) {
-  .intro {
+  .lead {
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 984px) {
-  .intro {
+  .lead {
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 761px) {
-  .intro {
+  .lead {
     max-width: 320px;
   }
 }
+
+

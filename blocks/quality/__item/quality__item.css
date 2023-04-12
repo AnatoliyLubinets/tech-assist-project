@@ -1,0 +1,11 @@
+.quality__item {
+  flex-direction: column;
+
+}
+
+@media screen and (max-width: 761px) {
+  .quality__item {
+    justify-content: space-around;
+    max-width: 320px;
+  }
+}

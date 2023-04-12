@@ -15,11 +15,9 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_focused/header__lang-link_focused.css);
 @import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/header-items.css);
 @import url(../blocks/header/__button/header__button.css);
-@import url(../blocks/header/__button/header__button.css);
-@import url(../blocks/header/__button/_type/header__button_main.css);
 @import url(../blocks/header/__button/_type/header__button_help.css);
-@import url(../blocks/header/__button/_type/header__button_ring.css);
 @import url(../blocks/header/__button/_type/header__button_phone.css);
 @import url(../blocks/header/__button/_type/header__button_mail.css);
 @import url(../blocks/header/__button/_type/header__button_phone_image.css);
@@ -30,6 +28,7 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/lead__bottom.css);
 
 /* intro */
 @import url(../blocks/intro/intro.css);
@@ -41,6 +40,7 @@
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item_text.css);
 
 /* places */
 @import url(../blocks/places/places.css);
@@ -54,6 +54,10 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__description/place__descriprion.css);
+
+/* quality */
+@import url(../blocks/quality/quality.css);
+@import url(../blocks/quality/quality__feature/quality__feature.css);
 
 
 /* cover */

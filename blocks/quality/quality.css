@@ -1,0 +1,18 @@
+.quality {
+  display: flex;
+  max-width: 989px;
+  margin: 0 auto;
+  font-family: 'Myriad Pro', Arial, sans-serif;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  color: black;
+}
+
+@media screen and (max-width: 761px) {
+  .quality {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 320px;
+  }
+}

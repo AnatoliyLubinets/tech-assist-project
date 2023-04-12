@@ -14,6 +14,33 @@
   cursor: pointer;
 }
 
+.header__button:last-child {
+  padding-right: 0px;
+}
+
 .header__button:hover {
   opacity: .5;
+}
+/*@media screen and (max-width: 1200px) {
+  .header__button_help {
+    height: 30px;
+    width: 150px;
+
+  }
+
+}
+
+@media screen and (max-width: 984px) {
+  .header__button_help {
+    min-height: 480px;
+
+  }
+
+}*/
+
+@media screen and (max-width: 761px) {
+  .header__button_help {
+    display: none;
+  }
+
 }

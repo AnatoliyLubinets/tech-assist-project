@@ -1,6 +1,6 @@
 .header__button_ring {
   height: 50px;
-  width: 230px;
+  width: 250px;
   font-size: 15px;
   background-image: url(../../../../images/help1.png);
   background-repeat: no-repeat;
@@ -13,3 +13,28 @@
   color: aliceblue;
   opacity: 1;
 }
+
+@media screen and (max-width: 1200px) {
+  .header__button_ring {
+    height: 40px;
+    width: 200px;
+
+  }
+
+}
+
+@media screen and (max-width: 984px) {
+  .cover__item {
+    min-height: 480px;
+
+  }
+
+}
+
+@media screen and (max-width: 761px) {
+  .cover__item {
+    min-height: 200px;
+  }
+
+}
+

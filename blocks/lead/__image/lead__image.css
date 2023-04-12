@@ -1,5 +1,8 @@
 .lead__image {
+  width: 100%;
   object-fit: contain;
   object-position: center;
+  grid-column-start: 1;
+
 }
 

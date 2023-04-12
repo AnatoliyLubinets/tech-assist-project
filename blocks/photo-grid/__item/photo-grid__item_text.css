@@ -1,0 +1,6 @@
+.photo-grid__item_text {
+  color: black;
+  text-align: center;
+  border: solid 1px gray;
+  font-weight: 900;
+}
