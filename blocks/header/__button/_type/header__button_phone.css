@@ -1,5 +1,6 @@
 .header__button_phone {
   color: rgb(0, 91, 154);
+  text-decoration: none;
 }
 
 @media screen and (max-width: 761px) {
