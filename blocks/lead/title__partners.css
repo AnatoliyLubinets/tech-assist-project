@@ -1,0 +1,29 @@
+.title__partners {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Myriad Pro', Arial, sans-serif;
+  max-width: 100%;
+  margin-top: 0 auto;
+  background-color: #F2F2F2;
+  background-position: left;
+}
+
+@media screen and (max-width: 1152px) {
+  .title__partners{
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .title__partners {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 761px) {
+  .title__partners {
+    max-width: 320px;
+  }
+}
+

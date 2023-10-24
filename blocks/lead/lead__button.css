@@ -1,0 +1,31 @@
+.lead__button {
+  margin-left: 440px;
+  margin: 0 auto 440;
+  width: 18%;
+  border: 0;
+  background: none;
+  padding: 0;
+  font-family: 'Myriad Pro', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  white-space: nowrap;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.lead__button:last-child {
+  padding-right: 0px;
+}
+
+.lead__button:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 761px) {
+  .lead__button_help {
+    display: none;
+  }
+
+}

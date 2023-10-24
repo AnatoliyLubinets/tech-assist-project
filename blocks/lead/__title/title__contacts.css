@@ -1,0 +1,20 @@
+.title__contacts {
+  max-width: 100%;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: left;
+  margin: 0 auto;
+  color: black;
+  margin-left: 440px;
+
+}
+
+@media screen and (max-width: 761px) {
+  .title__contacts {
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 0px;
+    max-width: 60%;
+  }
+}

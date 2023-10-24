@@ -1,0 +1,18 @@
+.lead__button_help {
+  height: 50px;
+  width: 250px;
+  font-size: 15px;
+  background-image: url(../../../../images/help2.png);
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  color: aliceblue;
+  border: 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.lead__button_help:hover {
+  background-image: url(../../../../images/help1.png);
+  color: black;
+  opacity: 1;
+}

@@ -1,0 +1,7 @@
+.card__text {
+  color: black;
+  text-align: start;
+  border: none;
+  font-weight: 900;
+  padding-left: 10px;
+}

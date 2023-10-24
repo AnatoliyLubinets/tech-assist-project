@@ -1,0 +1,7 @@
+.lead__form {
+  display: flex;
+  min-height: 100px;
+  min-width: 200px;
+  margin: 0 auto;
+  margin-left: 440px;
+}

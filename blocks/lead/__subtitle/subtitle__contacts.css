@@ -1,0 +1,19 @@
+.subtitle__contacts {
+  margin: 32px 0 64px 0;
+  max-width: 100%;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: left;
+  color: black;
+  margin-left: 440px;
+}
+
+@media screen and (max-width: 761px) {
+  .subtitle__contacts {
+    max-width: 60%;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 16px auto auto 0;
+  }
+}

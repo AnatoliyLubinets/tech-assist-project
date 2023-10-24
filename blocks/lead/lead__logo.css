@@ -1,0 +1,24 @@
+.lead__logo {
+  align-self: center;
+  padding-left: 180px;
+  padding-top: 10px;
+}
+
+.lead__logo:first-child {
+  padding-left: 440px;
+}
+
+@media screen and (max-width: 1152px) {
+  .lead__logo {
+    padding-left: 10px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .lead__logo:first-child {
+    padding-left: 10px;
+    width: 100px;
+  }
+}
+
