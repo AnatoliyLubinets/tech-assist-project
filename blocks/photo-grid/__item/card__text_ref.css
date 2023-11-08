@@ -3,4 +3,35 @@
   text-align: start;
   border: none;
   font-weight: 400;
+  max-height: 100px;
+  overflow: hidden;
+  position: relative;
 }
+
+.read-more-checker {
+  opacity: 0;
+  position: absolute;
+}
+
+.read-more-button {
+  padding-left: 10px;
+  cursor: pointer;
+  color: black;
+  text-align: start;
+  border: none;
+  font-weight: 900;
+  text-decoration: underline 3px #5D94D4;
+  margin-bottom: 5px;
+}
+
+.read-more-checker ~ .read-more-button::after {
+ content: 'Смотреть подробнее';
+}
+
+.read-more-checker:checked ~ .read-more-button::after {
+  content: 'Свернуть';
+ }
+
+ .read-more-checker:checked ~ .card__text_ref {
+  max-height: none;
+ }

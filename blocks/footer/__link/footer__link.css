@@ -1,11 +1,13 @@
 .footer__link {
-  text-decoration: none;
-  color: black;
+  font-family: 'Myriad Pro', Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  padding-right: 18px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 140px;
   transition: 0.5s;
+  color: black;
 }
 
 .footer__link:hover {
